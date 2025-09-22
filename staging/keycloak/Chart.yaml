@@ -15,12 +15,12 @@ icon: https://www.keycloak.org/resources/images/keycloak_icon_512px.svg
 sources:
   - https://github.com/open-cloud-initiative/charts
   - https://github.com/jboss-dockerfiles/keycloak
-  - https://github.com/cloudnative-pg/charts/blob/main/charts/cluster
+  - https://github.com/cloudnative-pg/charts
 maintainers:
   - name: katallaxie
-    email: sebastian@katallaxie.dev
+    email: sebastian@katallaxie.
 dependencies:
-  - name: cluster
-    version: 0.3.1
+  - name: cloudnative-pg/cloudnative-pg
+    version: 10.16.2
     repository: https://cloudnative-pg.github.io/charts
     condition: postgresql.enabled
