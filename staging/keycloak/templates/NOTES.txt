@@ -1,6 +1,6 @@
 ***********************************************************************
 *                                                                     *
-*         Keycloak Helm Chart by Open Cloud Initiative                *
+*         Keycloak Helm Chart by Open Cloud Initiative (OCI)          *
 *                                                                     *
 ***********************************************************************
 
