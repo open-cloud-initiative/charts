@@ -20,7 +20,7 @@ maintainers:
   - name: katallaxie
     email: sebastian@katallaxie.dev
 dependencies:
-  - name: cnpg/cluster
+  - name: cluster
     version: 0.3.1
     repository: https://cloudnative-pg.github.io/charts
     condition: postgresql.enabled
