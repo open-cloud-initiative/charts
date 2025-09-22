@@ -1,0 +1,11 @@
+debug: true
+target-branch: main
+chart-dirs:
+  - stable
+  - staging
+excluded-charts:
+  - common
+chart-repos:
+  - oci-staging=https://open-cloud-initiative.github.io/charts
+  - oci-stable=https://open-cloud-initiative.github.io/charts
+helm-extra-args: --timeout 600s
